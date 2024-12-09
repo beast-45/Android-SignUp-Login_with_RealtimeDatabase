@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "287737591678",
+    "project_id": "beastfirebase",
+    "storage_bucket": "beastfirebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287737591678:android:4eeea78de75d7f8689652f",
+        "android_client_info": {
+          "package_name": "com.example.accessdatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqD4Nw8UW0l8qNsIw6K-Gf5uLFAGJ3e_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

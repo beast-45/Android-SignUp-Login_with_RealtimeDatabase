@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome ,"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="90dp"
+        android:textSize="25sp"
+        android:textColor="@color/White"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login to Contuinue"
+        android:layout_marginStart="12dp"
+        android:textSize="24sp"
+        android:textColor="@color/White"
+        android:textStyle="bold"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etloginusername"
+        android:layout_width="match_parent"
+        app:helperText="*Must be Unique"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="#FF0000"
+        android:layout_marginTop="150dp"
+        app:hintTextColor="@color/White"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        android:textColorHint="@color/White"
+        app:boxStrokeWidth="3dp"
+        app:boxStrokeColor="@color/White"
+        app:boxCornerRadiusTopStart="12dp"
+        android:layout_marginStart="12dp"
+        app:endIconTint="@color/White"
+        android:layout_marginEnd="12dp"
+        android:layout_height="60dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etloginusernameinput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="    Enter Your Username"
+            android:drawableStart="@drawable/name"
+            android:textColorHint="@color/White"
+            android:textColor="@color/White"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/White"
+        android:text="LOGIN"
+        android:textColor="@color/Black"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/SigninText"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/White"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:text="New User? SignIn"/>
+    <TextView
+        android:layout_marginTop="180dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/White"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:text="Made With Love By Beast"/>
+
+
+</LinearLayout>
